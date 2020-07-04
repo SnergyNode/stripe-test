@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 Route::get('make/payment', 'PaymentController@paymentProcess')->name('make.payment');
 
 Route::get('card_pay/success', 'PaymentController@paymentSuccess');

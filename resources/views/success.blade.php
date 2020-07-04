@@ -68,16 +68,16 @@
                     <div class="box">
                         <i class="fa fa-credit-card fa-3x" aria-hidden="true"></i>
                         <div class="box-title">
-                            <h3>Pay Now</h3>
+                            <h3>Payment Success</h3>
                         </div>
                         <div class="box-text">
                             <h3>
-                                $10
+                                You paid $10
                             </h3>
                         </div>
                         <div class="">
 
-                            <a href="{{ route('make.payment') }}" class="btn btn-outline-primary">Test Payment</a>
+                            <a href="{{ route('home') }}" class="btn btn-outline-primary">Continue</a>
                         </div>
                     </div>
                 </div>
